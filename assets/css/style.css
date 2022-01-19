@@ -23,8 +23,8 @@ header h1 {
   color: #fce138;
   margin: 0px;
   display: inline;
-  border: 2px solid orange;
 }
+
 header a {
   text-decoration: none;
   color: #fce138;
@@ -68,14 +68,49 @@ footer a {
   color: #024e76;
 }
 
-/*ul {
-  border: 2px solid green;
-}
-li {
-  border: 2px solid red;
-}
-a {
-  border: 2px solid purple;
+/* Hero Style Start */
+section {
+  padding: 60px;
 }
 
-/* this my life i just want you to be involved */
+.hero {
+  background-image: url("/images/hero-bg.jpg");
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+/* Hero End */
+
+.hero-form {
+  border: 3px solid #024e76;
+  background-color: #fce138;
+  padding: 20px;
+  width: 500px;
+  color: #024e76;
+  position: absolute;
+  bottom: 120px;
+  right: 140px;
+}
+.hero-form h3 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.hero-form p {
+  margin: 5px 0 15px 0;
+}
+
+.form-input {
+  border: 1px solid #024e76;
+  display: block;
+  padding: 7px 15px;
+  font-size: 16px;
+  color: #024e76;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.hero label {
+  margin: 0 5px
+}
