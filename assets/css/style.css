@@ -103,7 +103,7 @@ section {
 
 /* HERO STYLES START */
 .hero {
-  background-image: url('/assets/images/hero-bg.jpg');
+  background-image: url('./assets/images/hero-bg.jpg');
   background-size: cover;
   background-position: center;
   display: flex;
